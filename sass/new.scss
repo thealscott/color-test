@@ -1,0 +1,317 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent,
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$seagreen: #2c4f55;
+$redbrick: #5b2217;
+$aubergine: #382756;
+$cobalt: #12385c;
+
+// Rate Card Colors
+$jupiter: #bb3e00;
+$alpine: #044f48;
+
+// Copy Color
+$charcoal: #363836;
+
+// Secondary Colors
+$springleaf: #5e7a0f; // NEW COLOR – Was #617e0f
+$chartreuse: #cdc52b;
+$matcha: #f3f5b0; // NEW COLOR – Was #e7ec61
+$sunshine: #eed214;
+$mustard: #dfad25;
+$terracotta: #b65f1d;
+$coral: #c13327;
+$darkscarlet: #971e20;
+$cabernet: #5a1f33;
+$indigo: #1c1448;
+$deepprussian: #072d3a;
+$imperial: #085285;
+$seablue: #036f83; // CTA LINK COLOR
+$ciel: #d6e4f1;
+$linen: #fbf9ee; // Likely to change
+$mist: #e4e1db;
+$slate: #686159;
+$stone: #626367;
+
+$colors: (
+    (apricotpeach,#f9bdbd),
+    (halfbaked,#94c7d1),
+    (gumbo,#82a7a4),
+    (seanymph,#749e9a),
+    (juniper,#709A96),
+    (opal,#B0C9C6),
+    (blue,#00e),
+    (bizarre,#f0dddd),
+    (burningsand,#DB956F),
+    (desertsand,#EEC3B2),
+
+    (thunderbird,$coral),
+    (pomegranate,$coral),
+
+    (monza,$darkscarlet),
+    (oldbrick,$darkscarlet),
+    (guardsmanred,$darkscarlet),
+
+    (fire,$redbrick),
+    (irishcoffee,$redbrick),
+    (expresso,$redbrick),
+    (darkexpresso,$redbrick),
+    (oregon,$redbrick),
+
+    (desert,$terracotta),
+
+    (roseofsharon,$jupiter),
+    (tuscany,$jupiter),
+
+    (sandwisp,$mustard),
+
+    (yellow,$sunshine),
+
+    (olivetone,$springleaf),
+
+    (berylgreen,$matcha),
+    (pearllusta,$matcha),
+    (doublepearllusta,$matcha),
+    (texas, $matcha),
+    (palecanary,$matcha),
+    
+    (tealblue,$cobalt),
+    (blumine, $cobalt),
+    (bluezodiac,$cobalt),
+    (darktealblue,$cobalt),
+    (downriver,$cobalt),
+
+    (bluelagoon,$seablue),
+    (easternblue,$seablue),
+    (bostonblue,$seablue),
+    (mosque,$seablue),
+
+    (fiord,$seagreen),
+    (spectra,$seagreen),
+    (oracle,$seagreen),
+    (cuttysark,$seagreen),
+    (bluebayoux,$seagreen),
+    (shuttlegrey,$seagreen),
+    (nileblue,$seagreen),
+    (deepseagreen,$seagreen),
+
+    (eveningsea,$alpine),
+    (sherwoodgreen,$alpine),
+    (firefly,$alpine),
+
+    (elephant,$deepprussian),
+    (bluedianne,$deepprussian),
+    (tiber,$deepprussian),
+    (bigstone, $deepprussian),
+
+    (bunting,$indigo),
+
+    (martinique,$aubergine),
+    (daisybush,$aubergine),
+
+    (wineberry,$cabernet),
+    
+    (sanjuan,$imperial),
+    (veniceblue,$imperial),
+    (blueribbon,$imperial),
+
+    (ziggurat,$ciel),
+    (catskillwhite,$ciel),
+    (blacksqueeze,$ciel),
+    (linkwater,$ciel),
+    (aquahaze,$ciel),
+    (mystic,$ciel),
+    (geyser,$ciel),
+
+    (rumswizzle,$linen),
+    (athensgrey,$linen),
+    (albescentwhite,$linen),
+    (whitelinen,$linen),
+
+    (greychateau,$mist),
+    (submarine,$mist),
+    (alto,$mist),
+    (porcelain,$mist),
+    (blackhaze,$mist),
+    (frenchgrey,$mist),
+    (westar,$mist),
+    (cararra,$mist),
+    (mercury,$mist),
+    (dustygrey,$mist),
+    (silver,$mist),
+    (iron,$mist),
+    (bombay,$mist),
+
+    (midgrey,$stone),
+    (edward,$stone),
+    (nobel,$stone),
+    (silverchalice,$stone),
+    (emperor,$stone),
+    (regentgrey, $stone),
+    (riverbed,$stone),
+
+    (flint,$slate),
+    (dovegrey,$slate),
+    (stack,$slate),
+    (lightstack,$slate),
+    (ironsidegrey,$slate),
+    (rollingstone,$slate),
+    
+    (mineshaft,$charcoal),
+    (ebonyclay,$charcoal),
+    (lunargreen,$charcoal),
+    (codgrey,$charcoal),
+    (heavymetal,$charcoal),
+    (heaviermetal,$charcoal),
+    (black,$charcoal),
+    (darkmine,$charcoal),
+    (medmine,$charcoal),
+    
+    (white,#fff)
+);
+
+// $colors: (
+//     (ziggurat,#bfd0de),
+//     (tealblue,#06375a),
+//     (berylgreen,#d3e5b2),
+//     (greychateau,#a3acb1),
+//     (blumine,#1d566f),
+//     (midgrey,#626366),
+//     (thunderbird,#d81d0e),
+//     (apricotpeach,#f9bdbd),
+//     (pomegranate,#e82914),
+//     (monza,#d41a0d),
+//     (bluelagoon,#036f83),
+//     (catskillwhite,#E8F2F4),
+//     (halfbaked,#94c7d1),
+//     (elephant,#0E2D3A),
+//     (flint,#69615a),
+//     (sanjuan,#2b5573),
+//     (submarine,#bbc8c8),
+//     (alto,#e0e0e0),
+//     (porcelain,#ebeced),
+//     (pearllusta,#fcf8dc),
+//     (doublepearllusta,#fbf5ca),
+//     (blackhaze,#eceeee),
+//     (mineshaft,#2f2f2f),
+//     (edward,#9ba2a3),
+//     (ebonyclay,#1f2630),
+//     (frenchgrey,#D0D0D1),
+//     (bluedianne,#213e4a),
+//     (fiord,#3e5761),
+//     (lunargreen,#363836),
+//     (codgrey,#0F0F0F),
+//     (heavymetal,#363835),
+//     (heaviermetal,#262826),
+//     (blacksqueeze,#eaf1f8),
+//     (wineberry,#5a1e32),
+//     (sandwisp,#f4dfa5),
+//     (linkwater,#d6e4f1),
+//     (texas,#f7eb95),
+//     (westar,#e6e3dd),
+//     (cararra,#eceae6),
+//     (silverchalice,#a9a9a9),
+//     (easternblue,#2695ac),
+//     (nobel,#bbb8b8),
+//     (desert,#b65f1d),
+//     (bunting,#1c1448),
+//     (tiber,#072d3a),
+//     (veniceblue,#085485),
+//     (irishcoffee,#632c23),
+//     (spectra,#36585e),
+//     (martinique,#42335f),
+//     (mercury,#e8e8e8),
+//     (rumswizzle,#fcfbf0),
+//     (aquahaze,#F2F6F8),
+//     (oldbrick,#971e20),
+//     (firefly,#0e3935),
+//     (fire,#a43b04),
+//     (mystic,#e5edec),
+//     (eveningsea,#044f48),
+//     (gumbo,#82a7a4),
+//     (seanymph,#749e9a),
+//     (sherwoodgreen,#033f3a),
+//     (oracle,#36726d),
+//     (cuttysark,#526872),
+//     (bluebayoux,#45626b),
+//     (shuttlegrey,#576c75),
+//     (bigstone,#1a3843),
+//     (regentgrey,#87969D),
+//     (iron,#d5dcdd),
+//     (nileblue,#18515d),
+//     (blue,#00e),
+//     (daisybush,#551a8b),
+//     (blueribbon,#06e),
+//     (palecanary,#ff9),
+//     (yellow,#ff0),
+//     (bizarre,#f0dddd),
+//     (guardsmanred,#b90205),
+//     (bluezodiac,#12385c),
+//     (darktealblue,#06375a),
+//     (olivetone,#627e0f),
+//     (bostonblue,#339CB2),
+//     (riverbed,#404a5a),
+//     (rollingstone,#7A8486),
+//     (downriver,#0f375c),
+//     (stack,#878887),
+//     (lightstack,#959695),
+//     (athensgrey,#f6f6f8),
+//     (expresso,#5b2217),
+//     (darkexpresso,#5A2116),
+//     (ironsidegrey,#66635E),
+//     (roseofsharon,#C04502),
+//     (geyser,#DCE6E5),
+//     (deepseagreen,#064D47),
+//     (juniper,#709A96),
+//     (opal,#B0C9C6),
+//     (albescentwhite,#F6E5DB),
+//     (burningsand,#DB956F),
+//     (desertsand,#EEC3B2),
+//     (whitelinen,#F6E9E0),
+//     (oregon,#9A3602),
+//     (tuscany,#CE6A36),
+//     (bombay,#b0b1b3),
+//     (mosque,#046b7d),
+//     (black,#000),
+//     (darkmine,#222),
+//     (medmine,#333),
+//     (emperor,#555),
+//     (dovegrey,#666),
+//     (dustygrey,#999),
+//     (silver,#ccc),
+//     (white,#fff)
+// );
+
+div {
+    display:inline-block;
+    width:150px;
+    height:150px;
+    margin:0;
+    border:1px rgba(0, 0, 0, 0.5) dashed;
+
+    &:before {
+        background:white;
+        font-family:console, monospace;
+        vertical-align: top;
+        white-space: pre;
+    }
+}
+
+@for $i from 1 through 109 {
+    $name:nth(nth($colors, $i), 1);
+    $hex:nth(nth($colors, $i), 2);
+
+    div.color-#{$i} {
+        background:$hex;
+
+        &:before {
+            content:"#{$hex} \A #{$name}";
+
+        }
+    }
+}
+

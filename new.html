@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheets/new.css">
+    </head>
+
+    <body>
+        <main id='main'>
+
+        </main>
+    </body>
+
+    <script>
+        for (i = 1; i <= 109; i++) {
+            var element = document.createElement('div');
+            element.classList.add('color-'+ i);
+            document.getElementById('main').appendChild(element);
+        }
+    </script>
+</html>

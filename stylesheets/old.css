@@ -1,0 +1,1065 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent,
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../Users/alasdairs/.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Users/alasdairs/.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Users/alasdairs/.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Users/alasdairs/.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Users/alasdairs/.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Users/alasdairs/.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Users/alasdairs/.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Users/alasdairs/.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Users/alasdairs/.rvm/gems/ruby-2.0.0-p353/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 289, ../sass/old.scss */
+div {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  border: 1px rgba(0, 0, 0, 0.5) dashed;
+}
+/* line 296, ../sass/old.scss */
+div:before {
+  background: white;
+  font-family: console, monospace;
+  vertical-align: top;
+  white-space: pre;
+}
+
+/* line 308, ../sass/old.scss */
+div.color-1 {
+  background: #bfd0de;
+}
+/* line 311, ../sass/old.scss */
+div.color-1:before {
+  content: "#bfd0de \A ziggurat";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-2 {
+  background: #06375a;
+}
+/* line 311, ../sass/old.scss */
+div.color-2:before {
+  content: "#06375a \A tealblue";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-3 {
+  background: #d3e5b2;
+}
+/* line 311, ../sass/old.scss */
+div.color-3:before {
+  content: "#d3e5b2 \A berylgreen";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-4 {
+  background: #a3acb1;
+}
+/* line 311, ../sass/old.scss */
+div.color-4:before {
+  content: "#a3acb1 \A greychateau";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-5 {
+  background: #1d566f;
+}
+/* line 311, ../sass/old.scss */
+div.color-5:before {
+  content: "#1d566f \A blumine";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-6 {
+  background: #626366;
+}
+/* line 311, ../sass/old.scss */
+div.color-6:before {
+  content: "#626366 \A midgrey";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-7 {
+  background: #d81d0e;
+}
+/* line 311, ../sass/old.scss */
+div.color-7:before {
+  content: "#d81d0e \A thunderbird";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-8 {
+  background: #f9bdbd;
+}
+/* line 311, ../sass/old.scss */
+div.color-8:before {
+  content: "#f9bdbd \A apricotpeach";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-9 {
+  background: #e82914;
+}
+/* line 311, ../sass/old.scss */
+div.color-9:before {
+  content: "#e82914 \A pomegranate";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-10 {
+  background: #d41a0d;
+}
+/* line 311, ../sass/old.scss */
+div.color-10:before {
+  content: "#d41a0d \A monza";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-11 {
+  background: #036f83;
+}
+/* line 311, ../sass/old.scss */
+div.color-11:before {
+  content: "#036f83 \A bluelagoon";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-12 {
+  background: #e8f2f4;
+}
+/* line 311, ../sass/old.scss */
+div.color-12:before {
+  content: "#e8f2f4 \A catskillwhite";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-13 {
+  background: #94c7d1;
+}
+/* line 311, ../sass/old.scss */
+div.color-13:before {
+  content: "#94c7d1 \A halfbaked";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-14 {
+  background: #0e2d3a;
+}
+/* line 311, ../sass/old.scss */
+div.color-14:before {
+  content: "#0e2d3a \A elephant";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-15 {
+  background: #69615a;
+}
+/* line 311, ../sass/old.scss */
+div.color-15:before {
+  content: "#69615a \A flint";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-16 {
+  background: #2b5573;
+}
+/* line 311, ../sass/old.scss */
+div.color-16:before {
+  content: "#2b5573 \A sanjuan";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-17 {
+  background: #bbc8c8;
+}
+/* line 311, ../sass/old.scss */
+div.color-17:before {
+  content: "#bbc8c8 \A submarine";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-18 {
+  background: #e0e0e0;
+}
+/* line 311, ../sass/old.scss */
+div.color-18:before {
+  content: "#e0e0e0 \A alto";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-19 {
+  background: #ebeced;
+}
+/* line 311, ../sass/old.scss */
+div.color-19:before {
+  content: "#ebeced \A porcelain";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-20 {
+  background: #fcf8dc;
+}
+/* line 311, ../sass/old.scss */
+div.color-20:before {
+  content: "#fcf8dc \A pearllusta";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-21 {
+  background: #fbf5ca;
+}
+/* line 311, ../sass/old.scss */
+div.color-21:before {
+  content: "#fbf5ca \A doublepearllusta";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-22 {
+  background: #eceeee;
+}
+/* line 311, ../sass/old.scss */
+div.color-22:before {
+  content: "#eceeee \A blackhaze";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-23 {
+  background: #2f2f2f;
+}
+/* line 311, ../sass/old.scss */
+div.color-23:before {
+  content: "#2f2f2f \A mineshaft";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-24 {
+  background: #9ba2a3;
+}
+/* line 311, ../sass/old.scss */
+div.color-24:before {
+  content: "#9ba2a3 \A edward";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-25 {
+  background: #1f2630;
+}
+/* line 311, ../sass/old.scss */
+div.color-25:before {
+  content: "#1f2630 \A ebonyclay";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-26 {
+  background: #d0d0d1;
+}
+/* line 311, ../sass/old.scss */
+div.color-26:before {
+  content: "#d0d0d1 \A frenchgrey";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-27 {
+  background: #213e4a;
+}
+/* line 311, ../sass/old.scss */
+div.color-27:before {
+  content: "#213e4a \A bluedianne";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-28 {
+  background: #3e5761;
+}
+/* line 311, ../sass/old.scss */
+div.color-28:before {
+  content: "#3e5761 \A fiord";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-29 {
+  background: #363836;
+}
+/* line 311, ../sass/old.scss */
+div.color-29:before {
+  content: "#363836 \A lunargreen";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-30 {
+  background: #0f0f0f;
+}
+/* line 311, ../sass/old.scss */
+div.color-30:before {
+  content: "#0f0f0f \A codgrey";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-31 {
+  background: #363835;
+}
+/* line 311, ../sass/old.scss */
+div.color-31:before {
+  content: "#363835 \A heavymetal";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-32 {
+  background: #262826;
+}
+/* line 311, ../sass/old.scss */
+div.color-32:before {
+  content: "#262826 \A heaviermetal";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-33 {
+  background: #eaf1f8;
+}
+/* line 311, ../sass/old.scss */
+div.color-33:before {
+  content: "#eaf1f8 \A blacksqueeze";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-34 {
+  background: #5a1e32;
+}
+/* line 311, ../sass/old.scss */
+div.color-34:before {
+  content: "#5a1e32 \A wineberry";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-35 {
+  background: #f4dfa5;
+}
+/* line 311, ../sass/old.scss */
+div.color-35:before {
+  content: "#f4dfa5 \A sandwisp";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-36 {
+  background: #d6e4f1;
+}
+/* line 311, ../sass/old.scss */
+div.color-36:before {
+  content: "#d6e4f1 \A linkwater";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-37 {
+  background: #f7eb95;
+}
+/* line 311, ../sass/old.scss */
+div.color-37:before {
+  content: "#f7eb95 \A texas";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-38 {
+  background: #e6e3dd;
+}
+/* line 311, ../sass/old.scss */
+div.color-38:before {
+  content: "#e6e3dd \A westar";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-39 {
+  background: #eceae6;
+}
+/* line 311, ../sass/old.scss */
+div.color-39:before {
+  content: "#eceae6 \A cararra";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-40 {
+  background: darkgray;
+}
+/* line 311, ../sass/old.scss */
+div.color-40:before {
+  content: "darkgray \A silverchalice";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-41 {
+  background: #2695ac;
+}
+/* line 311, ../sass/old.scss */
+div.color-41:before {
+  content: "#2695ac \A easternblue";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-42 {
+  background: #bbb8b8;
+}
+/* line 311, ../sass/old.scss */
+div.color-42:before {
+  content: "#bbb8b8 \A nobel";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-43 {
+  background: #b65f1d;
+}
+/* line 311, ../sass/old.scss */
+div.color-43:before {
+  content: "#b65f1d \A desert";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-44 {
+  background: #1c1448;
+}
+/* line 311, ../sass/old.scss */
+div.color-44:before {
+  content: "#1c1448 \A bunting";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-45 {
+  background: #072d3a;
+}
+/* line 311, ../sass/old.scss */
+div.color-45:before {
+  content: "#072d3a \A tiber";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-46 {
+  background: #085485;
+}
+/* line 311, ../sass/old.scss */
+div.color-46:before {
+  content: "#085485 \A veniceblue";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-47 {
+  background: #632c23;
+}
+/* line 311, ../sass/old.scss */
+div.color-47:before {
+  content: "#632c23 \A irishcoffee";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-48 {
+  background: #36585e;
+}
+/* line 311, ../sass/old.scss */
+div.color-48:before {
+  content: "#36585e \A spectra";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-49 {
+  background: #42335f;
+}
+/* line 311, ../sass/old.scss */
+div.color-49:before {
+  content: "#42335f \A martinique";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-50 {
+  background: #e8e8e8;
+}
+/* line 311, ../sass/old.scss */
+div.color-50:before {
+  content: "#e8e8e8 \A mercury";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-51 {
+  background: #fcfbf0;
+}
+/* line 311, ../sass/old.scss */
+div.color-51:before {
+  content: "#fcfbf0 \A rumswizzle";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-52 {
+  background: #f2f6f8;
+}
+/* line 311, ../sass/old.scss */
+div.color-52:before {
+  content: "#f2f6f8 \A aquahaze";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-53 {
+  background: #971e20;
+}
+/* line 311, ../sass/old.scss */
+div.color-53:before {
+  content: "#971e20 \A oldbrick";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-54 {
+  background: #0e3935;
+}
+/* line 311, ../sass/old.scss */
+div.color-54:before {
+  content: "#0e3935 \A firefly";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-55 {
+  background: #a43b04;
+}
+/* line 311, ../sass/old.scss */
+div.color-55:before {
+  content: "#a43b04 \A fire";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-56 {
+  background: #e5edec;
+}
+/* line 311, ../sass/old.scss */
+div.color-56:before {
+  content: "#e5edec \A mystic";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-57 {
+  background: #044f48;
+}
+/* line 311, ../sass/old.scss */
+div.color-57:before {
+  content: "#044f48 \A eveningsea";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-58 {
+  background: #82a7a4;
+}
+/* line 311, ../sass/old.scss */
+div.color-58:before {
+  content: "#82a7a4 \A gumbo";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-59 {
+  background: #749e9a;
+}
+/* line 311, ../sass/old.scss */
+div.color-59:before {
+  content: "#749e9a \A seanymph";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-60 {
+  background: #033f3a;
+}
+/* line 311, ../sass/old.scss */
+div.color-60:before {
+  content: "#033f3a \A sherwoodgreen";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-61 {
+  background: #36726d;
+}
+/* line 311, ../sass/old.scss */
+div.color-61:before {
+  content: "#36726d \A oracle";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-62 {
+  background: #526872;
+}
+/* line 311, ../sass/old.scss */
+div.color-62:before {
+  content: "#526872 \A cuttysark";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-63 {
+  background: #45626b;
+}
+/* line 311, ../sass/old.scss */
+div.color-63:before {
+  content: "#45626b \A bluebayoux";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-64 {
+  background: #576c75;
+}
+/* line 311, ../sass/old.scss */
+div.color-64:before {
+  content: "#576c75 \A shuttlegrey";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-65 {
+  background: #1a3843;
+}
+/* line 311, ../sass/old.scss */
+div.color-65:before {
+  content: "#1a3843 \A bigstone";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-66 {
+  background: #87969d;
+}
+/* line 311, ../sass/old.scss */
+div.color-66:before {
+  content: "#87969d \A regentgrey";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-67 {
+  background: #d5dcdd;
+}
+/* line 311, ../sass/old.scss */
+div.color-67:before {
+  content: "#d5dcdd \A iron";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-68 {
+  background: #18515d;
+}
+/* line 311, ../sass/old.scss */
+div.color-68:before {
+  content: "#18515d \A nileblue";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-69 {
+  background: #0000ee;
+}
+/* line 311, ../sass/old.scss */
+div.color-69:before {
+  content: "#0000ee \A blue";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-70 {
+  background: #551a8b;
+}
+/* line 311, ../sass/old.scss */
+div.color-70:before {
+  content: "#551a8b \A daisybush";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-71 {
+  background: #0066ee;
+}
+/* line 311, ../sass/old.scss */
+div.color-71:before {
+  content: "#0066ee \A blueribbon";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-72 {
+  background: #ffff99;
+}
+/* line 311, ../sass/old.scss */
+div.color-72:before {
+  content: "#ffff99 \A palecanary";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-73 {
+  background: yellow;
+}
+/* line 311, ../sass/old.scss */
+div.color-73:before {
+  content: "yellow \A yellow";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-74 {
+  background: #f0dddd;
+}
+/* line 311, ../sass/old.scss */
+div.color-74:before {
+  content: "#f0dddd \A bizarre";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-75 {
+  background: #b90205;
+}
+/* line 311, ../sass/old.scss */
+div.color-75:before {
+  content: "#b90205 \A guardsmanred";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-76 {
+  background: #12385c;
+}
+/* line 311, ../sass/old.scss */
+div.color-76:before {
+  content: "#12385c \A bluezodiac";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-77 {
+  background: #06375a;
+}
+/* line 311, ../sass/old.scss */
+div.color-77:before {
+  content: "#06375a \A darktealblue";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-78 {
+  background: #627e0f;
+}
+/* line 311, ../sass/old.scss */
+div.color-78:before {
+  content: "#627e0f \A olivetone";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-79 {
+  background: #339cb2;
+}
+/* line 311, ../sass/old.scss */
+div.color-79:before {
+  content: "#339cb2 \A bostonblue";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-80 {
+  background: #404a5a;
+}
+/* line 311, ../sass/old.scss */
+div.color-80:before {
+  content: "#404a5a \A riverbed";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-81 {
+  background: #7a8486;
+}
+/* line 311, ../sass/old.scss */
+div.color-81:before {
+  content: "#7a8486 \A rollingstone";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-82 {
+  background: #0f375c;
+}
+/* line 311, ../sass/old.scss */
+div.color-82:before {
+  content: "#0f375c \A downriver";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-83 {
+  background: #878887;
+}
+/* line 311, ../sass/old.scss */
+div.color-83:before {
+  content: "#878887 \A stack";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-84 {
+  background: #959695;
+}
+/* line 311, ../sass/old.scss */
+div.color-84:before {
+  content: "#959695 \A lightstack";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-85 {
+  background: #f6f6f8;
+}
+/* line 311, ../sass/old.scss */
+div.color-85:before {
+  content: "#f6f6f8 \A athensgrey";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-86 {
+  background: #5b2217;
+}
+/* line 311, ../sass/old.scss */
+div.color-86:before {
+  content: "#5b2217 \A expresso";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-87 {
+  background: #5a2116;
+}
+/* line 311, ../sass/old.scss */
+div.color-87:before {
+  content: "#5a2116 \A darkexpresso";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-88 {
+  background: #66635e;
+}
+/* line 311, ../sass/old.scss */
+div.color-88:before {
+  content: "#66635e \A ironsidegrey";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-89 {
+  background: #c04502;
+}
+/* line 311, ../sass/old.scss */
+div.color-89:before {
+  content: "#c04502 \A roseofsharon";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-90 {
+  background: #dce6e5;
+}
+/* line 311, ../sass/old.scss */
+div.color-90:before {
+  content: "#dce6e5 \A geyser";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-91 {
+  background: #064d47;
+}
+/* line 311, ../sass/old.scss */
+div.color-91:before {
+  content: "#064d47 \A deepseagreen";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-92 {
+  background: #709a96;
+}
+/* line 311, ../sass/old.scss */
+div.color-92:before {
+  content: "#709a96 \A juniper";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-93 {
+  background: #b0c9c6;
+}
+/* line 311, ../sass/old.scss */
+div.color-93:before {
+  content: "#b0c9c6 \A opal";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-94 {
+  background: #f6e5db;
+}
+/* line 311, ../sass/old.scss */
+div.color-94:before {
+  content: "#f6e5db \A albescentwhite";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-95 {
+  background: #db956f;
+}
+/* line 311, ../sass/old.scss */
+div.color-95:before {
+  content: "#db956f \A burningsand";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-96 {
+  background: #eec3b2;
+}
+/* line 311, ../sass/old.scss */
+div.color-96:before {
+  content: "#eec3b2 \A desertsand";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-97 {
+  background: #f6e9e0;
+}
+/* line 311, ../sass/old.scss */
+div.color-97:before {
+  content: "#f6e9e0 \A whitelinen";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-98 {
+  background: #9a3602;
+}
+/* line 311, ../sass/old.scss */
+div.color-98:before {
+  content: "#9a3602 \A oregon";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-99 {
+  background: #ce6a36;
+}
+/* line 311, ../sass/old.scss */
+div.color-99:before {
+  content: "#ce6a36 \A tuscany";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-100 {
+  background: #b0b1b3;
+}
+/* line 311, ../sass/old.scss */
+div.color-100:before {
+  content: "#b0b1b3 \A bombay";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-101 {
+  background: #046b7d;
+}
+/* line 311, ../sass/old.scss */
+div.color-101:before {
+  content: "#046b7d \A mosque";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-102 {
+  background: black;
+}
+/* line 311, ../sass/old.scss */
+div.color-102:before {
+  content: "black \A black";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-103 {
+  background: #222222;
+}
+/* line 311, ../sass/old.scss */
+div.color-103:before {
+  content: "#222222 \A darkmine";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-104 {
+  background: #333333;
+}
+/* line 311, ../sass/old.scss */
+div.color-104:before {
+  content: "#333333 \A medmine";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-105 {
+  background: #555555;
+}
+/* line 311, ../sass/old.scss */
+div.color-105:before {
+  content: "#555555 \A emperor";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-106 {
+  background: #666666;
+}
+/* line 311, ../sass/old.scss */
+div.color-106:before {
+  content: "#666666 \A dovegrey";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-107 {
+  background: #999999;
+}
+/* line 311, ../sass/old.scss */
+div.color-107:before {
+  content: "#999999 \A dustygrey";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-108 {
+  background: #cccccc;
+}
+/* line 311, ../sass/old.scss */
+div.color-108:before {
+  content: "#cccccc \A silver";
+}
+
+/* line 308, ../sass/old.scss */
+div.color-109 {
+  background: white;
+}
+/* line 311, ../sass/old.scss */
+div.color-109:before {
+  content: "white \A white";
+}
